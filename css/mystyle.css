@@ -1,0 +1,513 @@
+.ghouse {
+    background-image: url(../css/GryffindorHouseBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 80px;
+}
+
+.hhouse{
+    background-image: url(../css/HufflepuffHouseBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 80px;
+}
+
+.rhouse{
+    background-image: url(../css/Ravenclaw%20background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 80px;
+}
+
+.shouse{
+    background-image: url(../css/Slytherin%20background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-bottom: 80px;
+}
+.ghouse-txt {
+    color: #fff; 
+    font-family: serif;
+    font-size: 20px;
+}
+
+.hhouse-txt{
+    color: #fff;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.rhouse-txt{
+    color: #fff;
+    font-family: serif bold;
+    font-size: 20px;
+    
+}
+
+.shouse-txt{
+    color: #fff;
+    font-family: serif;
+    font-size: 20px;
+}
+    
+/* content */
+.navbar-brand{
+    position: relative;
+    top: 50%;
+    z-index: 2;
+    margin: 0 auto;
+    max-width: 720px;
+    text-align: bottom;
+    color: white;
+
+}
+
+.philosophercontent{
+    color: #fff;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.chamberofsecretscontent{
+    color: #fff;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.arthurcontent{
+    color: #fff;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.dumbledorecontent{
+    color: #fff;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.hogwarts-symbol{
+    position: fixed;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.dursleycontent{
+    color: #fff;
+    font-family: serif;
+    font-size: 20px;
+}
+.content{
+    color: #fff;
+    font-family: serif;
+    font-size: 20px;
+}
+/* video*/
+.video{
+    /*background-size: cover;*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    /*-webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);*/
+}
+
+/* navbar-text
+.navbar-text{
+    margin-left: auto;
+}*/
+.navbar {
+    margin-bottom: 0;   
+}
+
+/*logo*/
+.logo {
+    height: 50%;
+    position: relative;
+}
+
+
+
+}
+
+/* all footer btns*/
+.btn{
+    padding: auto;
+    margin-left: 14%;
+    text-align: bottom;
+    margin-top: 0.50%;
+    background-image: url(facebook%20logo.png);
+    
+}
+.navbar-left{
+    /*position: fixed;
+    background-image: url(website%20logo.png);*/
+    max-height: 200px;
+    
+}
+.ft-icons{
+    padding: 5px;   
+}
+
+.myCarousel{
+  
+    margin: auto;
+}
+
+.carousel-inner{
+    margin: 0 auto;
+}
+
+.carousel-indicators{
+    margin: 0 auto;
+}
+
+.carousel-slide{
+    margin: 0 auto;
+}
+
+
+/*circles*/
+.circle-space{
+	margin:5px;	
+}
+
+.circle1 {
+	width: 200px;
+	height: 200px;
+	background: red;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    z-index: 3;
+	margin-top:20px;
+	background-image:url(Gryffindor%20crest.png);
+}
+.circle2 {
+	width: 200px;
+	height: 200px;
+	background: green;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    z-index: 3;
+	margin-top:20px;
+	background-image:url(slytherin%20crest.png);
+	
+}
+
+.circle3 {
+	width: 200px;
+	height: 200px;
+	background: blue;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    z-index: 3;
+	margin-top:20px;
+	background-image:url(Ravenclaw%20crest.png);
+}
+
+.circle4 {
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    z-index: 3;
+	margin-top:20px;
+	background-image:url(Hufflepuff%20crest.png);
+	
+}
+
+
+.circleb1 {
+	width: 200px;
+	height: 200px;
+	background: purple;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    z-index: 3;
+	margin-top:20px;
+	
+}
+
+.circleb2 {
+	width: 200px;
+	height: 200px;
+	background: green;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    z-index: 3;
+	margin-top:20px;
+	
+}
+
+.circleb3 {
+	width: 200px;
+	height: 200px;
+	background: brown;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    z-index: 3;
+	margin-top:20px;
+	
+}
+
+.circleb4 {
+	width: 200px;
+	height: 200px;
+	background: blue;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    z-index: 3;
+	margin-top:20px;
+	
+}
+
+.circleb5 {
+	width: 200px;
+	height: 200px;
+	background: pink;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    z-index: 3;
+	margin-top:20px;
+	
+}
+
+.circleb6 {
+	width: 200px;
+	height: 200px;
+	background: red;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    z-index: 3;
+	margin-top:20px;
+	
+}
+
+.circleb7 {
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    z-index: 3;
+	margin-top:20px;
+	
+}
+
+.hvr-glow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@-webkit-keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.hvr-push {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+
+
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@-webkit-keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+@keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+.hvr-buzz {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+
+.circlef1 {
+	width: 200px;
+	height: 200px;
+	background: orange;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    z-index: 3;
+	margin-top:20px;
+	
+}
+
+.circlef2 {
+	width: 200px;
+	height: 200px;
+	background: red; 
+    -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    z-index: 3;
+	margin-top:20px;
+	
+}
+
+.circlef3 {
+	width: 200px;
+	height: 200px;
+	background: blue; 
+    -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    z-index: 3;
+	margin-top:20px;
+	
+}
+
+.circlef4 {
+	width: 200px;
+	height: 200px;
+	background: yellow; 
+    -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    z-index: 3;
+	margin-top:20px;
+	
+}
+
+.circlef5 {
+	width: 200px;
+	height: 200px;
+	background: white; 
+    -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    z-index: 3;
+	margin-top:20px;
+	
+}
+
+.circlef6 {
+	width: 200px;
+	height: 200px;
+	background: green; 
+    -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    z-index: 3;
+	margin-top:20px;
+	
+}
+
+.circlef7 {
+	width: 200px;
+	height: 200px;
+	background: brown; 
+    -moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+    z-index: 3;
+	margin-top:20px;
+	
+}
